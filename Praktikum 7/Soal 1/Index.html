@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="2172012 Jason">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Berapa mawar yang ingin dibeli? min (Rp. 5000)")
+        let b = prompt("Berapa tulip yang ingin dibeli? min (Rp. 8000)")
+        let c = prompt("Berapa anggrek yang ingin dibeli? min (Rp. 10000)")
+        let d = prompt("Berapa uang yang dibayar")
+        let au = a*5000;
+        let bu = b*8000;
+        let cu = c*10000;
+        let total = au+bu+cu;
+        let kembalian = d - (au+bu+cu);
+        document.write("Anda membeli mawar sebanyak <b>" + a + " bunga </b> dengan harga total Rp." + au + "<br>")
+        document.write("Anda membeli tulip sebanyak <b>" + b + " bunga </b> dengan harga total Rp." + bu + "<br>")
+        document.write("Anda membeli anggrek sebanyak <b>" + c + " bunga </b> dengan harga total Rp." + cu + "<br>")
+        document.write("Total belanjaan anda <b> Rp." + total + " </b> <br><br>")
+        if (d>total) {
+            document.write("kembalian anda adalah Rp." + kembalian)
+        }
+        else {
+            document.write("uang anda tidak mencukupi")
+        }
+    </script>
+</body>
+</html>

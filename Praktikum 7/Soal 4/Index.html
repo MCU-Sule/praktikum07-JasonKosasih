@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="2172012 Jason">
+    <title>Document</title>
+    <style>
+        .kotak {
+            width: 500px;
+            height: 50px;
+            border: 2px solid black;
+            margin: auto;
+        }
+        #kotak div {
+            width : 50px;
+            height : 50px;
+            float : left;
+        }
+        p {
+            position : absolute;
+            left: 48%;
+            margin : auto;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak">
+        <p id="angka"></p>
+        <div id="0"></div>
+        <div id="1"></div>
+        <div id="2"></div>
+        <div id="3"></div>
+        <div id="4"></div>
+        <div id="5"></div>
+        <div id="6"></div>
+        <div id="7"></div>
+        <div id="8"></div>
+        <div id="9"></div>
+    </div>
+    <script>
+        let ang = prompt("Masukkan input 0-9");
+        if (ang == 0) {
+            document.getElementById("1").style.backgroundColor="red";
+            document.getElementById("angka").innerHTML="10";
+        }
+        if (ang == 1) {
+            document.getElementById("1").style.backgroundColor="red";
+            document.getElementById("2").style.backgroundColor="red";
+            document.getElementById("angka").innerHTML="20";
+        }
+        if (ang == 2) {
+            document.getElementById("1").style.backgroundColor="#ff4d00";
+            document.getElementById("2").style.backgroundColor="#ff4d00";
+            document.getElementById("3").style.backgroundColor="#ff4d00";
+            document.getElementById("angka").innerHTML="30";
+        }
+        if (ang == 3) {
+            document.getElementById("1").style.backgroundColor="#ff9b00";
+            document.getElementById("2").style.backgroundColor="#ff9b00";
+            document.getElementById("3").style.backgroundColor="#ff9b00";
+            document.getElementById("4").style.backgroundColor="#ff9b00";
+            document.getElementById("angka").innerHTML="40";
+        }
+        if (ang == 4) {
+            document.getElementById("1").style.backgroundColor="#ffc500";
+            document.getElementById("2").style.backgroundColor="#ffc500";
+            document.getElementById("3").style.backgroundColor="#ffc500";
+            document.getElementById("4").style.backgroundColor="#ffc500";
+            document.getElementById("5").style.backgroundColor="#ffc500";
+            document.getElementById("angka").innerHTML="50";
+        }
+        if (ang == 5) {
+            document.getElementById("1").style.backgroundColor="#fbff00";
+            document.getElementById("2").style.backgroundColor="#fbff00";
+            document.getElementById("3").style.backgroundColor="#fbff00";
+            document.getElementById("4").style.backgroundColor="#fbff00";
+            document.getElementById("5").style.backgroundColor="#fbff00";
+            document.getElementById("6").style.backgroundColor="#fbff00";
+            document.getElementById("angka").innerHTML="60";
+        }
+        if (ang == 6) {
+            document.getElementById("1").style.backgroundColor="#d4ff00";
+            document.getElementById("2").style.backgroundColor="#d4ff00";
+            document.getElementById("3").style.backgroundColor="#d4ff00";
+            document.getElementById("4").style.backgroundColor="#d4ff00";
+            document.getElementById("5").style.backgroundColor="#d4ff00";
+            document.getElementById("6").style.backgroundColor="#d4ff00";
+            document.getElementById("7").style.backgroundColor="#d4ff00";
+            document.getElementById("angka").innerHTML="70";
+        }
+        if (ang == 7) {
+            document.getElementById("1").style.backgroundColor="#97ff00";
+            document.getElementById("2").style.backgroundColor="#97ff00";
+            document.getElementById("3").style.backgroundColor="#97ff00";
+            document.getElementById("4").style.backgroundColor="#97ff00";
+            document.getElementById("5").style.backgroundColor="#97ff00";
+            document.getElementById("6").style.backgroundColor="#97ff00";
+            document.getElementById("7").style.backgroundColor="#97ff00";
+            document.getElementById("8").style.backgroundColor="#97ff00";
+            document.getElementById("angka").innerHTML="80";
+        }
+        if (ang == 8) {
+            document.getElementById("1").style.backgroundColor="#5dff00";
+            document.getElementById("2").style.backgroundColor="#5dff00";
+            document.getElementById("3").style.backgroundColor="#5dff00";
+            document.getElementById("4").style.backgroundColor="#5dff00";
+            document.getElementById("5").style.backgroundColor="#5dff00";
+            document.getElementById("6").style.backgroundColor="#5dff00";
+            document.getElementById("7").style.backgroundColor="#5dff00";
+            document.getElementById("8").style.backgroundColor="#5dff00";
+            document.getElementById("9").style.backgroundColor="#5dff00";
+            document.getElementById("angka").innerHTML="90";
+        }
+        if (ang == 9) {
+            document.getElementById("1").style.backgroundColor="#079600";
+            document.getElementById("2").style.backgroundColor="#079600";
+            document.getElementById("3").style.backgroundColor="#079600";
+            document.getElementById("4").style.backgroundColor="#079600";
+            document.getElementById("5").style.backgroundColor="#079600";
+            document.getElementById("6").style.backgroundColor="#079600";
+            document.getElementById("7").style.backgroundColor="#079600";
+            document.getElementById("8").style.backgroundColor="#079600";
+            document.getElementById("9").style.backgroundColor="#079600";
+            document.getElementById("0").style.backgroundColor="#079600";
+            document.getElementById("angka").innerHTML="100";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="authort" content="2172012 Jason">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Berapa harga belanjaan ahda?")
+        let b = prompt("Berapa uang yang anda bayar?")
+        let kembalian = b - a;
+        let q = Math.floor (kembalian/100000);
+        let z = kembalian-(q*100000); 
+        let w = Math.floor (kembalian/50000);
+        let x = z-(w*50000);
+        let e = Math.floor (x/20000);
+        let c = x-(e*20000);
+        let r = Math.floor (c/2000);
+        let v = c-(r*2000);
+        let t = Math.floor (v/1000);
+        let n = v-(t*1000);
+        let y = Math.floor(n/500);
+        let m = n-(y*500);
+
+        document.write("Harga belanjaan anda adalah Rp." + a + "<br>")
+        document.write("Uang yang dibayar adalah Rp." + b + "<br><br>")
+        document.write("Kembalian anda adalah Rp." + kembalian + " dengan rincian sebagai berikut: <br>")
+        document.write("Uang Rp. 100000 sebanyak " + q + " lembar <br>")
+        document.write("Uang Rp. 50000 sebanyak " + w + " lembar <br>")
+        document.write("Uang Rp. 20000 sebanyak " + e + " lembar <br>")
+        document.write("Uang Rp. 2000 sebanyak " + r + " lembar <br>")    
+        document.write("Uang Rp. 500 sebanyak " + t + " lembar <br>")
+        document.write("Sisa kembalian adalah Rp." + m)
+    </script>
+</body>
+</html>
